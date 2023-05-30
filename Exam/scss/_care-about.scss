@@ -1,0 +1,23 @@
+.care-about{
+    .care_about_text{
+        h2{
+            font-weight: 900;
+        }
+    }
+    .sorted{
+      display: flex;
+      justify-content:center;
+      align-items: center;
+      gap: 600px;
+    }
+
+    .cards {
+        .col_1{
+            border: 1px solid white;
+            border-radius: 8px;
+            margin: 3px;
+       width: 300px;
+       box-shadow:0px 10px 30px 0px rgba(246,33,75, 0.4) ;
+        }
+    }
+}

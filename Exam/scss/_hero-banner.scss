@@ -1,0 +1,39 @@
+.hero-banner {
+    font-family: "Poppins", sans-serif;
+
+    .hero-banner-img {
+        background-image: url(../images/header-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+
+    .hero_text {
+        color: white;
+        position: relative;
+        bottom: 440px;
+        left: 400px;
+
+        h2 {
+            font-size: 50px;
+            font-weight: 700;
+        }
+    }
+
+    @media only screen and (max-width:768px) {
+        .hero-banner-img {
+
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .hero_text {
+            position: relative;
+            bottom: 450px;
+            left: 130px;
+        }
+    }
+}
+

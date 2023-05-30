@@ -1,0 +1,33 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .a {
+        list-style: none;
+        text-decoration: none;
+        color: #f6214b;
+    }
+
+}
+
+.footer_icon {
+    .fa-brands {
+
+        border: 1px solid black;
+        background-color: black;
+        color: white;
+        padding: 10px;
+    }
+
+    .fa-brands:hover {
+        background-color: #f6214b;
+    }
+}
+
+        @media only screen and (max-width:768px) {
+        .footer{
+            display: flex;
+            flex-direction: column;
+        }
+        }
